@@ -15,8 +15,8 @@ public class MyDrawing extends JPanel {
 	// paintComponent is called automatically when the frame needs
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
-		cat.draw(g, 50, 50, Color.black);
-		cat.draw(g, 250, 250, Color.yellow);
+		cat.draw(g, 50, 50, Color.black, Color.red,Color.red);
+		cat.draw(g, 250, 250, Color.yellow, Color.pink,Color.pink);
 	}
 	
 	/**
